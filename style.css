@@ -4,19 +4,61 @@
 
 nav {
     color: red;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
 }
+
+.nav-left {
+    border: 2px solid green;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+    .nav-right {
+        border: 2px solid green;
+        width: 50%;
+        padding-right: 10px;
+    }
+
+    ul {
+        border: 2px solid green;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    li {
+        border: 2px solid green;
+    }
+    
+    header {
+        border: 2px solid orange;
+    } 
 
 #hero-section {
     color: blue;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
 }
 
 #our_story-section {
     color: green;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
 }
 
 #watch-section {
     color: darkred;
+    border: 2px solid darkred;
+    display: flex;
+    justify-content: center;
 }
+
+
+/* Wale */
 
 #expertise-section {
     color: fuchsia;
