@@ -287,27 +287,56 @@ color: #fff;
 }
 
 .team-container  {
+    flex gap: 2px;
+    border-radius: 2px;
   display: flex; 
- justify-content: center;
-  font-size: x-large;
-  flex-wrap: wrap-reverse;
-  align-items: center;
+ justify-content: space-between;
+ align-items: center;
+ margin: 3%;
+ flex-wrap:nowrap
+ box-sizing: border-box;
+ 
+ 
+
 
 }
 
 .container-item{
 
-    width: 200px;
-    margin-top: 2px;
+width: 10.2em;
+    margin-top: 0.4empx;
+    height: 250px;
     align-items: center;
-    padding-top: 10px; 
+    padding: 3px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-sizing: border-box 0.02em;
+    justify-content: space-around;
+
+
 
 }
 
 .container-item h3 {
     display: flex;
+margin-bottom: 4.9em;
     justify-content: center;
     padding: 2.5em;
+    color: aqua;
+
+}
+
+.container-item p {
+    display: flex;
+    margin-bottom: 9em;
+        justify-content: center;
+        padding: 2.5em;
+        color: rgb(46, 58, 58);
+    border: solid white 2px;
+    border-radius: 2px;
+    border width: 2px
+    ;
+
 }
 #contact_client-section {
     color: lightsalmon;
