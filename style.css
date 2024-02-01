@@ -220,22 +220,23 @@ color: #fff;
 /* Wale */
 
 #expertise-section {
-    margin-top: 30px;
-    margin-bottom: 50%;
     align-items: center;
     width: 2%;
+    margin: 1020px
+    margin-top: auto;
     justify-content: center;
     padding: 0;
     border: #fff;
     color: black
 
 }   
+
     
 .grid-item{
     text-align: center;
     padding:80px;
     border: 1px solid #ccc;
-    border-radius: 2px;
+    border-radius: 0px;
     border-width: 30%;
    max-width: fit-content;
    align-items: center;
@@ -243,21 +244,80 @@ color: #fff;
  
 
 } 
+
+.grid-item h3 {
+    font-size: 0.8em;
+    margin: 2px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.grid-item img {
+    width: 30px;
+    align-items: center;
+    padding-top: 10px;
+}
     
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 7fr);
-    grid-gap: 60px;
+    grid-gap: 0px;
     justify-content: center;
     width: 30%;
     margin-bottom: 30%;
 
 }
 
-#team-section {
-    color: yellowgreen;
+#expertise-section p {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 0.8em;
+    margin: 2px;
+    width: 100%;
+    margin-bottom: 2px;
 }
+
+#team-section {
+    display: flex;
+    background-color: aqua;
+    color: yellowgreen;
+    width: 100%;
+    padding: 50px;
+    background-image: url("./images/bgk-middle.png");
+    padding: 10%;
+    margin-top: 60px;
+}
+
+#team-section h3 {
+    margin-left: 500px;
+    margin-bottom: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between
+
+
+}
+
+#team-section p {
+    margin-bottom: 140px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+}
+
+
+
 
 #contact_client-section {
     color: lightsalmon;
+}
+
+
+.footer {
+        text-align: right;
+        background-color: #f0f0f0;
+        padding: 90px;
+        background-image: url("./images/bgk-footer.png");
+        margin-top: 100px;
 }
