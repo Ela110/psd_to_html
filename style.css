@@ -279,36 +279,18 @@ color: #fff;
 }
 
 #team-section {
-    display: flex;
-    background-color: aqua;
-    color: yellowgreen;
+    background-image: url("./images/bgk-header.png");
     width: 100%;
-    padding: 50px;
-    background-image: url("./images/bgk-middle.png");
-    padding: 10%;
-    margin-top: 60px;
+    padding: 12.0em;
 }
 
-#team-section h3 {
-    margin-left: 500px;
-    margin-bottom: 30%;
-    display: flex;
-    align-content: center;
-    justify-content: space-between
+.container-item {
+   flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 7fr);
 
 
 }
-
-#team-section p {
-    margin-bottom: 140px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-items: center;
-}
-
-
-
-
 #contact_client-section {
     color: lightsalmon;
 }
@@ -320,4 +302,11 @@ color: #fff;
         padding: 90px;
         background-image: url("./images/bgk-footer.png");
         margin-top: 100px;
+}
+
+.footer nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin: 1px;
 }
