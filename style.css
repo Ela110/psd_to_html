@@ -259,6 +259,8 @@ color: #fff;
 }
     
 .grid-container{
+    display: flex;
+    flex-wrap: nowrap;
     display: grid;
     grid-template-columns: repeat(3, 7fr);
     grid-gap: 0px;
@@ -284,12 +286,28 @@ color: #fff;
     padding: 12.0em;
 }
 
-.container-item {
-   flex-direction: row;
-    display: grid;
-    grid-template-columns: repeat(3, 7fr);
+.team-container  {
+  display: flex; 
+ justify-content: center;
+  font-size: x-large;
+  flex-wrap: wrap-reverse;
+  align-items: center;
 
+}
 
+.container-item{
+
+    width: 200px;
+    margin-top: 2px;
+    align-items: center;
+    padding-top: 10px; 
+
+}
+
+.container-item h3 {
+    display: flex;
+    justify-content: center;
+    padding: 2.5em;
 }
 #contact_client-section {
     color: lightsalmon;
