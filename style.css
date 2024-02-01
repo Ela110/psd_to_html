@@ -61,15 +61,17 @@ nav {
     }
 
     header {
-        border: 2px solid orange;
+        /* border: 2px solid orange; */
+        padding-bottom: 1em;
     } 
 main {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+
 #hero-section {
     color: white;
     /* border: 2px solid blue; */
@@ -104,12 +106,13 @@ main {
 
 #hero-section button {
     border: 1px solid turquoise;
+    background-color: transparent;
+    color: turquoise;
     display: flex;
     justify-content: center;
 }
 
 #our_story_section {
-    color: white;
     /* border: 2px solid green; */
     display: flex;
     justify-content: space-around;
@@ -117,6 +120,13 @@ main {
     margin: 5em 10em;
 }
 
+#our_story_section button {
+    border: 1px solid turquoise;
+    background-color: transparent;
+    color: turquoise;
+    display: flex;
+    justify-content: center;
+}
 
 .our_story_image {
     /* background-color: white; */
@@ -135,6 +145,7 @@ main {
 }
 
 .our_story_text p {
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,11 +153,67 @@ main {
     margin: 1em; 
 }
 #watch-section {
+    /* border: 2px solid red;  */
     background-image: url('images/bgk-middle.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     min-width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle {
+    /* border: 2px solid red; */
+    max-width: 9em;
+    max-height: 8em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    margin: 5em;
+}
+
+#watch-section h5 {
+color: #fff;
+}
+
+.wrap{
+    background-color: #fff;
+    height: 300px;
+    position: relative;
+}
+
+.circle{
+    border: 1px solid #fff;
+    opacity: 0.5;
+    border-radius: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    margin: -25px 0 0 -25px;
+}
+.circle_inner{
+    position: relative;
+    height: 100%;
+    border: 1px solid #fff;
+}
+.circle_inner:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -7px;
 }
 
 
