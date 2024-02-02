@@ -396,19 +396,187 @@ background-color: aqua;
    list-style: none;
 }
 
-
-
 .message-box{
     display: flex;
  justify-content: center; 
- padding: 1.3em;
+ padding: 0.2em;
  margin-top: 2%;
 
 }
+
+.message-box h2 {
+    font-size: small;
+}
 .our-client {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 40%;
 }
 
-.footer {
-    background-color: brown
+footer {
+    background-image: url(./images/bgk-footer.png);
+    display: flex;
+    flex-direction: column
+    align-items: center;
+    padding: 1.5em;
+    font-size: x-small;
+    flex-wrap: wrap;
+    
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icon-items {
+    margin: 12%;
+   flex-wrap: wrap;
+
+
+}
+
+.footer-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: small;
+    display: flex;
+   color: white;
+
+}
+
+footer p {
+    display: flex;
+font-size: small;
+list-style: none;
+margin: 10px;
+}
+
+.left-image {
+flex-direction: row;
+justify-content: center;
+
+}
+
+.left-image p {
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1.6em;
+    display: flex;
+    flex-direction: row
+}
+
+::placeholder {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+   font-size: medium;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0.3em;
+
+}
+.mid-bar h2 {
+    display: flex;
+   font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    padding: 11.4px;
+    font-size: medium;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: small;
+
+}
+
+.mid-bar {
+    margin: 19px;
+
+}
+
+
+.right-bar img {
+   border:0.1em solid white;
+}
+.mid-bar h3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+.right-bar h2  {
+    flex-wrap:wrap ;
+    font-size: small;
+    justify-content: center;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+justify-content:center
+padding: 8px;
+flex-wrap:wrap;
+align-items: center
+}
+.sub-column form {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 7em;
+
+   
+}
+
+input {
+    opacity: 70%;
+    display: flex;
+    margin: 15px;
+
+}
+
+.nav-footer {
+    display: flex;
+    padding:1.7em;
+    flex-direction: row;
+    
+
+
+}
+
+img {
+    margin: 15px;
+}
+.footer-list {
+display: flex;
+flex-wrap: wrap;
+ color: white;
+ justify-content: space-around
+ align-items: flex-end;
+    }
+
+
+nav a {
+    display: flex;
+    flex-direction: row;
+    color:white
+}
+
+
+.tajam h3 {
+    display: flex;
+    margin: 2px;
+    padding:1.8em;
+
+
+}
+    
+nav {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.2em;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row
+    
 }
