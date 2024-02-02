@@ -323,19 +323,17 @@ background-color: aqua;
 
 .container-item h3 {
     display: flex;
-margin-bottom: 4.9em;
-    justify-content: center;
+    justify-content:center;
     padding: 2.5em;
-    color: aqua;
 
 }
 
 .container-item p {
     display: flex;
     margin-bottom: 9em;
-        justify-content: center;
-        padding: 2.5em;
-        color: rgb(46, 58, 58);
+    justify-content: center;
+    padding: 2.5em;
+    color: rgb(46, 58, 58);
     border: solid white 2px;
     border-radius: 2px;
     border width: 2px
@@ -362,12 +360,18 @@ margin-bottom: 4.9em;
     justify-content: center;
     border-radius: 9px;
 }
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0.2em;
+}
 .logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction:row;
-
 }
 
 .logo-items {
@@ -379,7 +383,6 @@ margin-bottom: 4.9em;
     justify-content: space-between;
    align-items: center;
    flex-direction: column
-
 
 }
 
@@ -394,32 +397,18 @@ margin-bottom: 4.9em;
 }
 
 
-.footer {
-        text-align: right;
-        background-color: #f0f0f0;
-        padding: 90px;
-        background-image: url("./images/bgk-footer.png");
-        margin-top: 100px;
-}
 
 .message-box{
     display: flex;
  justify-content: center; 
  padding: 1.3em;
  margin-top: 2%;
- 
 
 }
-
-
 .our-client {
     display: flex;
-
 }
 
-.footer nav {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-    margin: 1px;
+.footer {
+    background-color: brown
 }
