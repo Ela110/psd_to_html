@@ -224,22 +224,26 @@ color: #fff;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 3em 9em;
-
 }   
+
 
 #expertise-section img {
     display: flex;
-    justify-content: space-between;
-    width: 38px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 70px;
     align-items: center;
 }
 
 #expertise-section h2 {
-    display: flex;
-font-size: xx-large;
+display: flex;
+font-size: x-large;
 align-items: center;
 justify-content: center;
+margin-bottom: 0.9em;
+margin-top: 0.9em;
+margin-right: 2.5em;
 
 }
 .container { 
@@ -251,17 +255,26 @@ justify-content: center;
 
 }
 .item  {
-    flex-basis: calc(33.33% - 20px); /* Adjust the width and margin as needed */
-  height: 250px; /* Set your desired height */
-  margin: 10px; /* Set your desired margin */
-  background-color: #e0e0e0; /* Set your desired background color */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34%;
-  height: 56px
-  flex-basis: calc(33.33% - 20px);
+    display: flex;
+    margin: 4%;
+    border-radius: 29px;
+    border: 2px solid rgb(195, 26, 26);
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column
+
 } 
+
+.item h3{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 80px;
+    justify-content: space-between;
+
+
+}
 
 
 
@@ -310,14 +323,12 @@ background-color: aqua;
 
 .container-item{
     height: 250px;
+    background-color: aqua;
     align-items: center;
     background-color: white;
     border: 3px solid #ddd;
     box-sizing: border-box 0.02em;
     justify-content: space-around;
-    marg
-
-
 
 }
 
@@ -365,13 +376,55 @@ background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    padding: 12%
+    flex-direction: row
     margin: 0.2em;
+    
+    
+}
+
+textarea {
+display: flex;
+margin:0.9em;
+    display: flex;
+    align-items: center
+    justify-content: center;
+    padding: 1.5em
+    
+    
+
+}
+
+.send-button{
+    background-color: azure;
+}
+button {
+    border: 0.1em solid rgb(0, 255, 247);
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 6.7em;
+    height: 2.3em;
+    display: flex;
+    align-items: center;
+    margin: 0.9em;
+    text-align: center;
+    justify-content: space-evenly
 }
 .logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction:row;
+}
+
+#brands{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+    padding: 2.4em;
+    margin: 1%;
 }
 
 .logo-items {
@@ -405,7 +458,15 @@ background-color: aqua;
 }
 
 .message-box h2 {
-    font-size: small;
+    margin: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1px;
+    font-size: medium
+
+    
+    
 }
 .our-client {
     display: flex;
@@ -417,6 +478,7 @@ background-color: aqua;
 
 footer {
     background-image: url(./images/bgk-footer.png);
+    margin: 10px auto;
     display: flex;
     flex-direction: column
     align-items: center;
