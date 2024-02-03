@@ -222,48 +222,63 @@ color: #fff;
 #expertise-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}   
+    justify-content: center;
+    margin-bottom: 8%;
+
+
+}  
 
 
 #expertise-section img {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: flex-end;
     justify-content: center;
-    width: 70px;
-    align-items: center;
+    margin: 125px;
+    margin-bottom: 133px;
+    margin-top: 123px;
+    
 }
 
 #expertise-section h2 {
-display: flex;
+    display: flex;
 font-size: x-large;
 align-items: center;
 justify-content: center;
-margin-bottom: 0.9em;
-margin-top: 0.9em;
-margin-right: 2.5em;
+margin: 3.3em;
+
+
 
 }
 .container { 
 
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: row
+    align-items: center;
+    margin: 0.2em 8em
+
+    
 
 
 }
-.item  {
-    display: flex;
-    margin: 4%;
-    border-radius: 29px;
-    border: 2px solid rgb(195, 26, 26);
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column
+/* .item  { */
+    /* display: flex; */
+    /* margin: 4%; */
+    /* border-radius: 29px; */
+    /* border: 2px solid rgb(195, 26, 26); */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-direction: column */
 
 } 
+
+.item  {
+    display: flex;
+    flex-wrap: wrap;
+margin: 23em;
+
+}
 
 .item h3{
 
@@ -276,81 +291,98 @@ margin-right: 2.5em;
 
 }
 
+main {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:5px;
+ 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    border: #fff;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    max-width: 100%;
+}
+
 
 
 #expertise-section p {
     display: flex;
     justify-content: space-around;
-    list-style-type: none;
-    font-size: 0.8em;
     margin: 4px;
-    width: 100%;
-    margin-bottom: 2px;
 }
 
 #team-section {
-    background-image: url("./images/bgk-header.png");
+    background-image: url(./images/bgk-header.png);
     width: 100%;
-   padding: 190px;
+    height:450px ;  
+}
+    
+.team-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 2em 4em;
-    justify-content: space-between;
-    margin-bottom: 2.3em;
-}
-
-#team-section h2 {
-    display: flex;
-    justify-content: center;
-background-color: aqua;
-
-}
-#team-section p {
-    display: flex;
+    padding: 3.0em;
     color: white;
-    justify-content: center;
     align-items: center;
 }
-.team-container  {
+
+.white-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Align items in a column */
+    align-items: center;
+    display: flex;
+ height: 100vh;
+margin: 0;
+}
+    
+.box {
+
+    width: 100px;
+    height: 135px;
+    border: 2px solid #ccc;
+    margin: 6px;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.name{
+    margin-top: 10px;
+}
+.box h2 p{
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
 
 }
-
-.container-item{
-    height: 250px;
-    background-color: aqua;
+.under-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0.2;
+    color: white;
     align-items: center;
-    background-color: white;
-    border: 3px solid #ddd;
-    box-sizing: border-box 0.02em;
-    justify-content: space-around;
 
+    
 }
 
 .container-item h3 {
-    display: flex;
-    justify-content:center;
-    padding: 2.5em;
-
+   
 }
 
 .container-item p {
-    display: flex;
-    margin-bottom: 9em;
-    justify-content: center;
-    padding: 2.5em;
-    color: rgb(46, 58, 58);
-    border: solid white 2px;
-    border-radius: 2px;
-    border width: 2px
-    ;
+    
 
 }
+
 #contact_client-section {
     display: flex;
     justify-content: center;
@@ -473,7 +505,8 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    margin: 40%;
+    margin: 10%;
+    padding: 0.3em;
 }
 
 footer {
