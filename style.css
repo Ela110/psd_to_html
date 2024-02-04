@@ -222,156 +222,260 @@ color: #fff;
 #expertise-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 3em 9em;
+    justify-content: center;
 
-}   
+
+}  
+
 
 #expertise-section img {
     display: flex;
-    justify-content: space-between;
-    width: 38px;
-    align-items: center;
+    justify-content: center;
+    margin:56px;
+ 
+    
 }
 
 #expertise-section h2 {
     display: flex;
-font-size: xx-large;
+font-size: x-large;
 align-items: center;
 justify-content: center;
+margin: 3.3em;
+
+
 
 }
 .container { 
 
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
+    margin: 40px;
+    
 
 
 }
+
+
 .item  {
-    flex-basis: calc(33.33% - 20px); /* Adjust the width and margin as needed */
-  height: 250px; /* Set your desired height */
-  margin: 10px; /* Set your desired margin */
-  background-color: #e0e0e0; /* Set your desired background color */
-  display: flex;
+display: flex;
+border: 1px solid grey;
+justify-content: center;
+margin:0;
+box-sizing: 1px;
   align-items: center;
-  justify-content: center;
-  width: 34%;
-  height: 56px
-  flex-basis: calc(33.33% - 20px);
-} 
+    flex-direction: column
+    
+
+}
+
+.item h3{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4px;
+    margin: 50px;
 
 
+}
 
+.container img {
+    display: flex;
+    background-color: aqua;
+    margin: 6px;
+    padding: 1.2px;
+    justify-content: center;
+}
 #expertise-section p {
     display: flex;
     justify-content: space-around;
-    list-style-type: none;
-    font-size: 0.8em;
     margin: 4px;
-    width: 100%;
-    margin-bottom: 2px;
 }
 
 #team-section {
-    background-image: url("./images/bgk-header.png");
+    background-image: url(./images/bgk-header.png);
     width: 100%;
-   padding: 190px;
+    height:580px ;  
+}
+    
+.team-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 2em 4em;
-    justify-content: space-between;
-    margin-bottom: 2.3em;
-}
-
-#team-section h2 {
-    display: flex;
-    justify-content: center;
-background-color: aqua;
-
-}
-#team-section p {
-    display: flex;
+    padding: 3.0em;
     color: white;
+    align-items: center;
+}
+
+button {
+    color: aqua;
+    font-style: normal;
+    font-size: x-small;
+    margin: 6px;
+
+
+}
+
+
+.white-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Align items in a column */
+    align-items: center;
+    margin: 20px;
+}
+ 
+
+.ending {
+    display: flex;
+    margin: 2px;
+    padding: 91px;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.hiring {
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.team-container  {
 
+.hiring p {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
+    margin: 4px;
+    padding:20px;
+    color: white;
+    font-size: x-small;
 }
 
-.container-item{
-    height: 250px;
+.hiring h3 {
+    display: flex;
+    color: aqua;
+    justify-content: center;
     align-items: center;
+    border: 2px solid aqua;
+    margin: 7px;
+    
+    
+   
+}
+.box {
+    width: 100px;
+    height: 135px;
+    border: 2px solid #ccc;
+    margin: 5px;
     background-color: white;
-    border: 3px solid #ddd;
-    box-sizing: border-box 0.02em;
-    justify-content: space-around;
-    marg
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 
+    
+}
+
+.name{
+    margin: 30px;
+    display: flex;
+    padding: 4px;
+    margin: 60px;
+
+}
+.box h2 p{
+
+    display: flex;
 
 
 }
-
-.container-item h3 {
+.under-text {
     display: flex;
-    justify-content:center;
-    padding: 2.5em;
+    flex-direction: column;
+    padding: 0.2;
+    color: white;
+    align-items: center;
 
+    
 }
 
 .container-item p {
-    display: flex;
-    margin-bottom: 9em;
-    justify-content: center;
-    padding: 2.5em;
-    color: rgb(46, 58, 58);
-    border: solid white 2px;
-    border-radius: 2px;
-    border width: 2px
-    ;
+    
 
 }
+
 #contact_client-section {
     display: flex;
     justify-content: center;
-    padding: 0px;
-    flex-direction: row;
-    margin-bottom: 0%;
-    max-width: 100%;
-    height: 12%;
+    align-items: center;
+    padding: 3px;
 
 }
 
 .form-container {
     display: flex;
-    margin-left: 3em 8em;
-    padding: 2%;
     justify-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 9px;
+    padding: 30px;
+    align-items: center;
+    margin: 30px;
 }
 
+/* .form-container h2 { */
+    /* display: flex; */
+    
 .form-group {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 0.2em;
+    justify-content: center;
+    padding: 23px
+    flex-direction: row
+    margin: 0.4em;
+    
+    
+}
+
+textarea {
+display: flex;
+margin:0.9em;
+    display: flex;
+    align-items: center
+    justify-content: center;
+    padding: 1.5em
+    
+    
+
+}
+
+.send-button{
+    background-color: azure;
+}
+button {
+    border: 0.1em solid rgb(0, 255, 247);
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 6.7em;
+    height: 2.3em;
+    display: flex;
+    align-items: center;
+    margin: 0.9em;
+    text-align: center;
+    justify-content: space-evenly
 }
 .logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction:row;
+}
+
+#brands{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+    padding: 2.4em;
+    margin: 1%;
 }
 
 .logo-items {
@@ -396,19 +500,191 @@ background-color: aqua;
    list-style: none;
 }
 
-
-
 .message-box{
-    display: flex;
+display: flex;
  justify-content: center; 
- padding: 1.3em;
- margin-top: 2%;
+margin: 0.4em;
 
+}
+
+.message-box h2 {
+    margin: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1px;
+    font-size: medium
+
+    
+    
 }
 .our-client {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10%;
+    padding: 0.3em;
 }
 
-.footer {
-    background-color: brown
+footer {
+    background-image: url(./images/bgk-footer.png);
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column
+    align-items: center;
+    padding: 1.5em;
+    font-size: x-small;
+    flex-wrap: wrap;
+    
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icon-items {
+    margin: 12%;
+   flex-wrap: wrap;
+
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content:center;
+    font-size: medium;
+   color: white;
+   font-size: medium;
+
+}
+
+.left-image {
+flex-direction: row;
+margin: 3px;
+
+}
+
+.left-image p {
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1.6em;
+    display: flex;
+    flex-direction: row
+}
+
+::placeholder {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+   font-size: medium;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0.3em;
+
+}
+.mid-bar h2 {
+    display: flex;
+   font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    padding: 11.4px;
+    font-size: medium;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: small;
+
+}
+
+.mid-bar {
+   padding: 40px;
+   margin: 30px;
+
+}
+
+
+.right-bar img {
+   opacity: 80%;
+   background-color: #fff;
+   back
+}
+.mid-bar h3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+.right-bar h2  {
+    display: flex;
+    padding:60px;
+    font-size: medium;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-column form {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    margin: 12px;
+
+   
+}
+
+input {
+    opacity: 70%;
+    display: flex;
+    margin: 15px;
+
+}
+
+.nav-footer {
+    display: flex;
+    padding: 1px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 12px;
+    align-items: center;
+    
+
+
+}
+
+img {
+    margin: 15px;
+}
+.footer-list {
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+flex-wrap: wrap;
+ color: white;
+ justify-content: space-around
+}
+
+
+nav a {
+    display: flex;
+
+    color:white
+}
+
+
+.tajam p {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    justify-content: flex-start;
+}
+
+    
+nav {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.2em;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row
+    
 }
