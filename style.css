@@ -223,7 +223,6 @@ color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 8%;
 
 
 }  
@@ -231,11 +230,9 @@ color: #fff;
 
 #expertise-section img {
     display: flex;
-    justify-content: flex-end;
     justify-content: center;
-    margin: 125px;
-    margin-bottom: 133px;
-    margin-top: 123px;
+    margin:56px;
+ 
     
 }
 
@@ -252,66 +249,46 @@ margin: 3.3em;
 .container { 
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row
-    align-items: center;
-    margin: 0.2em 8em
-
+    flex-direction: row;
+    margin: 40px;
     
 
 
 }
-/* .item  { */
-    /* display: flex; */
-    /* margin: 4%; */
-    /* border-radius: 29px; */
-    /* border: 2px solid rgb(195, 26, 26); */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* flex-direction: column */
 
-} 
 
 .item  {
-    display: flex;
-    flex-wrap: wrap;
-margin: 23em;
+display: flex;
+border: 1px solid grey;
+justify-content: center;
+margin:0;
+box-sizing: 1px;
+  align-items: center;
+    flex-direction: column
+    
 
 }
 
 .item h3{
 
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin: 80px;
-    justify-content: space-between;
-
-
-}
-
-main {  
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding:5px;
- 
+    padding: 4px;
+    margin: 50px;
+
+
 }
 
-.wrapper {
+.container img {
     display: flex;
-    flex-direction: row;
-    border: #fff;
-    justify-items: center;
-    justify-content: space-between;
-    padding: 3px;
-    max-width: 100%;
+    background-color: aqua;
+    margin: 6px;
+    padding: 1.2px;
+    justify-content: center;
 }
-
-
-
 #expertise-section p {
     display: flex;
     justify-content: space-around;
@@ -321,7 +298,7 @@ main {
 #team-section {
     background-image: url(./images/bgk-header.png);
     width: 100%;
-    height:450px ;  
+    height:580px ;  
 }
     
 .team-text {
@@ -332,31 +309,79 @@ main {
     align-items: center;
 }
 
+button {
+    color: aqua;
+    font-style: normal;
+    font-size: x-small;
+    margin: 6px;
+
+
+}
+
+
 .white-container {
     display: flex;
     justify-content: center;
-    flex-direction: column; /* Align items in a column */
+    flex-direction: row; /* Align items in a column */
     align-items: center;
-    display: flex;
- height: 100vh;
-margin: 0;
+    margin: 20px;
 }
-    
-.box {
+ 
 
+.ending {
+    display: flex;
+    margin: 2px;
+    padding: 91px;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.hiring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hiring p {
+    display: flex;
+    margin: 4px;
+    padding:20px;
+    color: white;
+    font-size: x-small;
+}
+
+.hiring h3 {
+    display: flex;
+    color: aqua;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid aqua;
+    margin: 7px;
+    
+    
+   
+}
+.box {
     width: 100px;
     height: 135px;
     border: 2px solid #ccc;
-    margin: 6px;
+    margin: 5px;
     background-color: white;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+
     
 }
 
 .name{
-    margin-top: 10px;
+    margin: 30px;
+    display: flex;
+    padding: 4px;
+    margin: 60px;
+
 }
 .box h2 p{
 
@@ -374,10 +399,6 @@ margin: 0;
     
 }
 
-.container-item h3 {
-   
-}
-
 .container-item p {
     
 
@@ -386,32 +407,30 @@ margin: 0;
 #contact_client-section {
     display: flex;
     justify-content: center;
-    padding: 0px;
-    flex-direction: row;
-    margin-bottom: 0%;
-    max-width: 100%;
-    height: 12%;
+    align-items: center;
+    padding: 3px;
 
 }
 
 .form-container {
     display: flex;
-    margin-left: 3em 8em;
-    padding: 2%;
     justify-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 9px;
+    padding: 30px;
+    align-items: center;
+    margin: 30px;
 }
 
+/* .form-container h2 { */
+    /* display: flex; */
+    
 .form-group {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    padding: 12%
+    padding: 23px
     flex-direction: row
-    margin: 0.2em;
+    margin: 0.4em;
     
     
 }
@@ -482,10 +501,9 @@ button {
 }
 
 .message-box{
-    display: flex;
+display: flex;
  justify-content: center; 
- padding: 0.2em;
- margin-top: 2%;
+margin: 0.4em;
 
 }
 
@@ -538,24 +556,17 @@ footer {
 }
 
 .footer-container {
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: small;
     display: flex;
+    justify-content:center;
+    font-size: medium;
    color: white;
+   font-size: medium;
 
-}
-
-footer p {
-    display: flex;
-font-size: small;
-list-style: none;
-margin: 10px;
 }
 
 .left-image {
 flex-direction: row;
-justify-content: center;
+margin: 3px;
 
 }
 
@@ -589,13 +600,16 @@ justify-content: center;
 }
 
 .mid-bar {
-    margin: 19px;
+   padding: 40px;
+   margin: 30px;
 
 }
 
 
 .right-bar img {
-   border:0.1em solid white;
+   opacity: 80%;
+   background-color: #fff;
+   back
 }
 .mid-bar h3 {
     display: flex;
@@ -604,21 +618,17 @@ justify-content: center;
 }
 
 .right-bar h2  {
-    flex-wrap:wrap ;
-    font-size: small;
+    display: flex;
+    padding:60px;
+    font-size: medium;
     justify-content: center;
-display: flex;
-font-family: Arial, Helvetica, sans-serif;
-justify-content:center
-padding: 8px;
-flex-wrap:wrap;
-align-items: center
+    font-family: Arial, Helvetica, sans-serif;
 }
 .sub-column form {
     display: flex;
-    flex-direction: row;
-    margin: 15px;
-    padding: 7em;
+    margin: 10px;
+    justify-content: space-around;
+    margin: 12px;
 
    
 }
@@ -632,8 +642,11 @@ input {
 
 .nav-footer {
     display: flex;
-    padding:1.7em;
+    padding: 1px;
     flex-direction: row;
+    justify-content: space-around;
+    margin: 12px;
+    align-items: center;
     
 
 
@@ -644,27 +657,27 @@ img {
 }
 .footer-list {
 display: flex;
+font-family: Arial, Helvetica, sans-serif;
 flex-wrap: wrap;
  color: white;
  justify-content: space-around
- align-items: flex-end;
-    }
+}
 
 
 nav a {
     display: flex;
-    flex-direction: row;
+
     color:white
 }
 
 
-.tajam h3 {
-    display: flex;
-    margin: 2px;
-    padding:1.8em;
-
-
+.tajam p {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    justify-content: flex-start;
 }
+
     
 nav {
     display: flex;
