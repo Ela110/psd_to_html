@@ -261,7 +261,8 @@ margin: 3.3em;
 
 .item  {
 display: flex;
-border: 1px solid grey;
+/* border: 1px solid grey; */
+border: 0.1em solid rgba(169, 169, 169, 0.5);
 justify-content: center;
 margin:0;
 box-sizing: 1px;
@@ -284,9 +285,8 @@ box-sizing: 1px;
 
 .container img {
     display: flex;
-    background-color: aqua;
-    margin: 6px;
-    padding: 1.2px;
+    margin: 1px;
+    padding: 0;
     justify-content: center;
 }
 #expertise-section p {
@@ -364,6 +364,8 @@ button {
    
 }
 .box {
+    display: flex;
+    justify-content: space-evenly;
     width: 100px;
     height: 135px;
     border: 2px solid #ccc;
@@ -376,13 +378,57 @@ button {
     
 }
 
-.name{
-    margin: 30px;
+
+.horizontal-name {
     display: flex;
-    padding: 4px;
-    margin: 60px;
+    padding:150px;
+    color:white;
+}
+
+.horizontal-name span {
+    /* border: 1px solid grey; */
+}
+
+.vertical-name{
+    display: flex;
+    justify-content: center;
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+.name-part {
+    margin-right: 5px;
+    padding: 23;
+}
+/* .name { */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: black;
+    margin: 170px;
+    font-size:small;
+    flex-wrap: wrap;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row
+
+
+}
+
+.name h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 103px;
+
+}
+
 .box h2 p{
 
     display: flex;
@@ -451,7 +497,7 @@ margin:0.9em;
     background-color: azure;
 }
 button {
-    border: 0.1em solid rgb(0, 255, 247);
+    border: 0.3em solid rgb(0, 255, 247);
     background: #fff;
     font-family: Arial, Helvetica, sans-serif;
     width: 6.7em;
@@ -626,7 +672,7 @@ margin: 3px;
 }
 .sub-column form {
     display: flex;
-    margin: 10px;
+    margin: 9px;
     justify-content: space-around;
     margin: 12px;
 
