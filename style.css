@@ -219,11 +219,9 @@ color: #fff;
 
 /* Wale */
 
-#expertise-section {
+#expertise-section item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
 
 }  
 
@@ -231,19 +229,16 @@ color: #fff;
 #expertise-section img {
     display: flex;
     justify-content: center;
-    margin:56px;
+    margin:30px;
  
     
 }
 
 #expertise-section h2 {
     display: flex;
-font-size: x-large;
+font-size: small
 align-items: center;
 justify-content: center;
-margin: 3.3em;
-
-
 
 }
 .container { 
@@ -251,48 +246,34 @@ margin: 3.3em;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin: 40px;
+    align-items: center;
+    padding: 80px;
     
 
 
 }
-
 
 .item  {
 display: flex;
-/* border: 1px solid grey; */
-border: 0.1em solid rgba(169, 169, 169, 0.5);
-justify-content: center;
-margin:0;
-box-sizing: 1px;
+border:1px solid rgba(169, 169, 169, 0.5);
   align-items: center;
-    flex-direction: column
-    
+flex-direction: column;
+margin: 6px;
 
 }
 
-.item h3{
+.item h3 p {
 
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 4px;
-    margin: 50px;
 
 
 }
 
-.container img {
-    display: flex;
-    margin: 1px;
-    padding: 0;
-    justify-content: center;
-}
 #expertise-section p {
     display: flex;
     justify-content: space-around;
-    margin: 4px;
+    margin: 23px;
 }
 
 #team-section {
@@ -307,6 +288,19 @@ box-sizing: 1px;
     padding: 3.0em;
     color: white;
     align-items: center;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.icons {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 button {
@@ -458,12 +452,13 @@ button {
 
 }
 
+
 .form-container {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
     align-items: center;
-    margin: 30px;
+    margin: 2px;
 }
 
 /* .form-container h2 { */
@@ -500,7 +495,7 @@ button {
     border: 0.3em solid rgb(0, 255, 247);
     background: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    width: 6.7em;
+    width: 6.9em;
     height: 2.3em;
     display: flex;
     align-items: center;
@@ -515,13 +510,17 @@ button {
     flex-direction:row;
 }
 
-#brands{
+#brands h2 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center ;
-    padding: 2.4em;
-    margin: 1%;
+    padding: 3.6em;
+    margin: 65px;
+}
+/* .brands h2 { */
+    display: flex;
+    margin: 0px;
 }
 
 .logo-items {
@@ -605,14 +604,15 @@ footer {
     display: flex;
     justify-content:center;
     font-size: medium;
-   color: white;
    font-size: medium;
 
 }
 
 .left-image {
 flex-direction: row;
-margin: 3px;
+margin: 0px;
+font-size: small;
+padding:70px;
 
 }
 
@@ -621,16 +621,17 @@ margin: 3px;
     align-items: center;
     padding: 1.6em;
     display: flex;
+    color: white;
     flex-direction: row
 }
 
 ::placeholder {
     display: flex;
     flex-wrap: wrap;
-    margin: 5%;
+    margin: 10px;
    font-size: medium;
    font-family: Arial, Helvetica, sans-serif;
-   padding: 0.3em;
+   padding: 0.9em;
 
 }
 .mid-bar h2 {
@@ -646,37 +647,80 @@ margin: 3px;
 }
 
 .mid-bar {
-   padding: 40px;
-   margin: 30px;
+   padding: 55px;
+   margin: 35px;
 
 }
 
+.right-bar h2 {
 
+    margin: 1px;
+    font-size: small;
+    color: white;
+
+}
 .right-bar img {
-   opacity: 80%;
-   background-color: #fff;
-   back
+
+   width: 1.9em;
+
+   
 }
 .mid-bar h3 {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-small;
+    color:white
+}
+
+.mid-bar h2 {
+    color: white;
 }
 
 .right-bar h2  {
     display: flex;
-    padding:60px;
     font-size: medium;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+.right-bar p {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    color: white;
+
+}
 .sub-column form {
     display: flex;
-    margin: 9px;
-    justify-content: space-around;
-    margin: 12px;
+    justify-content: center;
+    margin: 6px;
 
-   
+
+}
+
+.sub-column {
+
+
+}
+.right-bar .sub-column {
+    display: flex;
+    margin: 1px;
+    justify-content: center;
+}
+.right-bar input {
+    background-color:white;
+    opacity: 45%;
+    margin: 12px;
+    font-size: small;
+    display: flex;
+    padding: 0;
+
+}
+
+.right-bar h2 {
+    display: flex;
+    font-size: small;
+    margin: 12px;
+    padding: 67px;
 }
 
 input {
@@ -716,15 +760,17 @@ nav a {
     color:white
 }
 
-
-.tajam p {
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    justify-content: flex-start;
+.taj-text{
+    display: flex;
+    margin: px;
+    color: aquamarine;
 }
 
-    
+.tajam img {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
 nav {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
